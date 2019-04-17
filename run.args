@@ -1,0 +1,1 @@
+development server_url:=http://localhost:4434/api sql_user:=core sql_pwd:=qw999 sql_url:=jdbc:mysql://localhost:3306/coreserver
