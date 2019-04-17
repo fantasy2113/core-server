@@ -1,0 +1,7 @@
+/usr/bin/mysqldump --user="orbis" --password="qw999" coreserver > /var/lib/jenkins/workspace/core-server/sql/coreserver-dump.sql
+
+pkill -f /var/lib/jenkins/workspace/core-server/target/core-server-1.0-SNAPSHOT-jar-with-dependencies.jar || true
+
+clean org.jacoco:jacoco-maven-plugin:prepare-agent install spotbugs:check sonar:sonar javadoc:javadoc assembly:assembly
+
+BUILD_ID=dontKillMe nohup /usr/lib/jvm/java-8-oracle/jre/bin/java -cp /var/lib/jenkins/workspace/core-server/target/core-server-1.0-SNAPSHOT-jar-with-dependencies.jar com.orbis.coreserver.Run development server_url:=http://lx-orb-dev1:4434/api sql_user:=core sql_pwd:=qw999 sql_url:=jdbc:mysql://localhost:3306/coreserver &
