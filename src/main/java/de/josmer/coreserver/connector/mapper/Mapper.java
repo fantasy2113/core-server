@@ -1,13 +1,12 @@
 package de.josmer.coreserver.connector.mapper;
 
 import de.josmer.coreserver.base.Toolbox;
-import com.orbis.coreserver.base.entities.*;
+import de.josmer.coreserver.base.entities.*;
 import de.josmer.coreserver.base.entities.beans.AddressBean;
 import de.josmer.coreserver.base.entities.beans.PersonBean;
 import de.josmer.coreserver.base.enums.EntityTypes;
 import de.josmer.coreserver.base.interfaces.connector.Columns;
 import de.josmer.coreserver.base.interfaces.connector.IMapper;
-import de.josmer.coreserver.base.entities.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

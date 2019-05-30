@@ -5,12 +5,10 @@ import de.josmer.coreserver.base.interfaces.connector.IConnector;
 import de.josmer.coreserver.base.interfaces.connector.IMapper;
 import de.josmer.coreserver.base.interfaces.connector.IUserConnector;
 import de.josmer.coreserver.base.interfaces.login.ILogin;
-import com.orbis.coreserver.base.interfaces.repositories.*;
+import de.josmer.coreserver.base.interfaces.repositories.*;
 import de.josmer.coreserver.connector.MySqlConnector;
 import de.josmer.coreserver.connector.UserConnector;
 import de.josmer.coreserver.connector.mapper.Mapper;
-import com.orbis.coreserver.repositories.*;
-import de.josmer.coreserver.base.interfaces.repositories.*;
 import de.josmer.coreserver.repositories.*;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 
