@@ -1,16 +1,16 @@
 package utils;
 
-import com.orbis.coreserver.Run;
-import com.orbis.coreserver.api.services.UserServiceTest;
-import com.orbis.coreserver.base.Toolbox;
-import com.orbis.coreserver.base.entities.*;
-import com.orbis.coreserver.base.entities.beans.AddressBean;
-import com.orbis.coreserver.base.entities.beans.PersonBean;
-import com.orbis.coreserver.base.enums.EntityTypes;
-import com.orbis.coreserver.base.interfaces.repositories.IUserRepository;
-import com.orbis.coreserver.base.interfaces.repositories.IUserRightRepository;
-import com.orbis.coreserver.connector.MySqlConnector;
-import com.orbis.coreserver.repositories.*;
+import de.josmer.coreserver.Run;
+import de.josmer.coreserver.api.services.UserServiceTest;
+import de.josmer.coreserver.base.Toolbox;
+import de.josmer.coreserver.base.entities.*;
+import de.josmer.coreserver.base.entities.beans.AddressBean;
+import de.josmer.coreserver.base.entities.beans.PersonBean;
+import de.josmer.coreserver.base.enums.EntityTypes;
+import de.josmer.coreserver.base.interfaces.repositories.IUserRepository;
+import de.josmer.coreserver.base.interfaces.repositories.IUserRightRepository;
+import de.josmer.coreserver.connector.MySqlConnector;
+import de.josmer.coreserver.repositories.*;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

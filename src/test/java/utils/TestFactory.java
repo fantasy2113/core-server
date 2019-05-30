@@ -1,10 +1,10 @@
 package utils;
 
-import com.orbis.coreserver.api.login.Login;
-import com.orbis.coreserver.connector.MySqlConnector;
-import com.orbis.coreserver.connector.UserConnector;
-import com.orbis.coreserver.connector.mapper.Mapper;
-import com.orbis.coreserver.repositories.*;
+import de.josmer.coreserver.api.login.Login;
+import de.josmer.coreserver.connector.MySqlConnector;
+import de.josmer.coreserver.connector.UserConnector;
+import de.josmer.coreserver.connector.mapper.Mapper;
+import de.josmer.coreserver.repositories.*;
 
 public final class TestFactory {
 
