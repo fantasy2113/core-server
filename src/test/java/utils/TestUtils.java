@@ -58,7 +58,7 @@ public final class TestUtils {
     public static void setConfig() {
         TestFactory.init();
         String[] args = new String[5];
-        args[0] = "sql_user:=core";
+        args[0] = "sql_user:=julian";
         args[1] = "sql_pwd:=qw999";
         args[2] = "sql_url:=jdbc:mysql://localhost:3306/coreserver_testing";
         args[3] = "server_url:=" + SERVER_URL;

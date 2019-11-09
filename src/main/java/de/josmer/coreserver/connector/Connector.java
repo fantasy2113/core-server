@@ -14,7 +14,7 @@ import java.sql.SQLException;
 
 public abstract class Connector {
 
-    public static final String CONFIG = "?autoReconnect=true&maxReconnects=100&serverTimezone=UTC&useSSL=true";
+    public static final String CONFIG = "?autoReconnect=true&maxReconnects=100&serverTimezone=UTC&useSSL=false";
     private static final Logger LOGGER = LogManager.getLogger(Connector.class.getName());
     private static String url = null;
     private static String user = null;
